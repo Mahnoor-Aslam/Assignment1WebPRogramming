@@ -1,0 +1,199 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ebeaea;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ebeaea;
+    color: #fff;
+
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    color: #0e0909;
+    font-size: 30px;
+}
+
+.logo img {
+    width: 40px; /* Adjust the width as needed */
+    margin-right: 5px; /* Add spacing between the image and text */
+    border-radius:50% ;
+}
+
+
+.actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #555;
+    border: none;
+    cursor: pointer;
+    background-color:  #ebeaea ;
+}
+
+.actions button:hover {
+    text-decoration: underline;
+}
+
+/* Change button color and text color on hover */
+.actions button:hover {
+    color: #fff; /* Change text color */
+    background-color: #c0c4c5; /* Change background color */
+}
+/* Add styles for the logo button */
+.actions .logo-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(112, 112, 218); /* Set the background color to blue */
+}
+
+/* Change button color and text color on hover */
+.actions .logo-button:hover {
+    background-color: #1b6e4e; /* Change background color on hover */
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    
+    display: flex; /* Make buttons display in a row */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: flex-start; /* Align buttons to the start of the container */
+    background-color: #fff; /* Set white background */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.buttons button {
+    margin: 5px; /* Add margin between buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #555;
+    border: none;
+    cursor: pointer;
+    background-color: #fff; /* Set white background */
+}
+
+/* Change button color and text color on hover */
+.buttons button:hover {
+    color: #fff; /* Change text color */
+    background-color: #c0c4c5; /* Change background color */
+}
+
+.bold-msg {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+}
+
+.bold-msg .yellow {
+    
+    font-weight: bold;
+    margin-top: 120px; /* Adjust as needed */
+    color: rgb(236, 117, 20);
+    font-size: 70px;
+    
+     /* Center the text */
+}
+
+/* Change the color of the bold yellow text on hover */
+.bold-msg .yellow:hover {
+    color: #b8972c; /* Change text color */
+}
+
+.additional-text {
+    color: #555; /* Adjust the color as needed */
+    font-size: 22px; /* Adjust the font size as needed */
+    margin-left: 30px;
+}
+
+/* Change the color of the additional text on hover */
+.additional-text:hover {
+    color: #b8972c; /* Change text color */
+}
+
+.search-bar {
+    
+    margin-top: 20px; /* Adjust as needed */
+    margin-left: 30px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 400px; /* Adjust the width as needed */
+    border: 1px solid #ccc; /* Adjust the border color as needed */
+    border-radius: 15px; /* Adjust the border radius as needed */
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: rgb(236, 117, 20);/* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    border: none;
+    border-radius: 5px; /* Adjust the border radius as needed */
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #9c691d; /* Adjust the hover background color as needed */
+}
+
+.images {
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  
+    
+}
+
+.images img:nth-child(1) {
+    width: 40%; /* Adjust the width as needed */
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    border-radius:5%;
+    
+    
+}
+
+.images img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    width: 270px; /* Adjust the width as needed */
+    border-radius: 10%;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
