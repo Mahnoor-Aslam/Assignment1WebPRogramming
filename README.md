@@ -26,7 +26,7 @@ information from applicants and include validation to ensure accurate data
 submission. Additionally, at the end of the web page, there should be a button that,
 when clicked, transforms the submitted application data into a table format for easy
 review.
-<br>
+
 Requirements:
 <br>
 1. Design a web form using HTML and CSS for collecting job application information. Include fields for the applicant’s:
