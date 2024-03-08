@@ -90,3 +90,4 @@ application data into a table format.
 5. The table should display all submitted applications in rows, with each column
 representing different fields (e.g., Name, Email, Phone Number, Resume, Cover
 Letter).
+***
